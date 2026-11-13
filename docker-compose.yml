@@ -34,7 +34,7 @@ services:
       context: .
       dockerfile: frontend/Dockerfile
       args:
-        REACT_APP_API_URL: "http://13.126.189.21:8000"
+        REACT_APP_API_URL: "http://43.204.38.250:8000"
     container_name: notes-frontend
     restart: unless-stopped
     ports:
